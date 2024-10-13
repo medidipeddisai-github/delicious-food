@@ -1,0 +1,300 @@
+.checkout-item-image{
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+}
+#step1{
+  font-family: Arial, Helvetica, sans-serif;
+  align-items: center;
+  padding: 0px;
+  margin:20px auto;
+  justify-content: center;
+  
+}
+#step1 h2{
+  text-align: center;
+  font-size: 25px;
+  margin-bottom: 50px;
+
+
+}
+.checkoutDetai{
+  margin: 20px auto;
+  width: 60%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: #fff;
+  padding: 30px;
+  
+  /* box-shadow: 10px 10px 20px 0px rgba(0, 0, 0, 0.25); */
+}
+.checkout-item{
+  display: flex;
+  flex-direction: row;
+  
+  /* justify-content: space-around; */
+  align-items: center;
+  margin-bottom: 30px;
+  margin-top: 30px;
+  /* width: 800px; */
+}
+.checkout-item-details{
+  font-size: 18px;
+  font-weight: 500;
+  margin-top: -60px;
+  margin-left: 260px;
+}
+#step1 .checkout-totals{
+  float: right;
+  margin-right: 40px;
+  margin-top: -20px;
+}
+#cancelButton1{
+  border: none;
+  border-radius: 5px;
+  background-color: #404041;
+  height: 40px;
+  width: 100px;
+  color: #fff;
+  font-size: 18px;
+ margin-top: 50px;
+ margin-left: 80px;
+}
+#nextButton1{
+  border: none;
+  border-radius: 5px;
+  /* background-color: #333333; */
+  height: 40px;
+  width: 100px;
+  color: #fff;
+  font-size: 18px;
+  background-color: #2ecc71;
+  /* background-color: #007bff; */
+  float: right;
+  margin-top: 50px;  
+  margin-right: 80px;
+}
+
+/* General form styling */
+#step2 {
+  /* background-color: #f7f7f7; */
+  font-family: Arial, Helvetica, sans-serif;
+ 
+}
+
+/* Styling for the User Information section */
+#step2 h2 {
+  color: #333;
+  margin-bottom: 15px;
+  margin-top: 30px;
+  text-align: center;
+}
+#userInfoForm{
+  width: 500px;
+  margin: 20px auto;
+  margin-top: 30px;
+}
+/* Form field styling */
+#userInfoForm label {
+  display: block;
+  margin-bottom: 5px;
+  color: #666;
+}
+
+#userInfoForm input[type="text"],
+#userInfoForm textarea {
+  width: 100%;
+  padding: 10px;
+  height: 30px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 18px;
+}
+
+/* Styling for input fields with validation errors */
+/* #userInfoForm input:invalid,
+#userInfoForm textarea:invalid {
+  border-color: #e74c3c;
+} */
+
+/* Error message container */
+#errorContainer {
+  color: #e74c3c;
+  margin-bottom: 20px;
+  font-size: 16px;
+font-weight: 550
+}
+
+/* Button styling */
+#cancelButton2,
+#nextButton2 {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#cancelButton2 {
+  background-color: #404041;
+  color: white;
+  margin-top: 20px;
+ margin-left: -310px;
+}
+
+#nextButton2 {
+  background-color: #2ecc71;
+  color: white;
+  float: right;
+  margin-top: 23px;  
+  margin-right: -340px;
+}
+
+/* Hover effects for buttons */
+#cancelButton2:hover,
+#nextButton2:hover {
+  opacity: 0.9;
+}
+#step3 {
+  /* background-color: #f7f7f7; */
+  font-family: Arial, Helvetica, sans-serif;
+  /* margin: 20px auto; */
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+}
+#step3 h2 {
+  color: #333;
+  margin-bottom: 30px;
+  margin-top: 30px;
+  text-align: center;
+  padding-bottom: 30px;
+}
+.review-container{
+  margin: 20px auto;
+  align-items: center;
+  /* display: flex;
+  flex-direction:column;
+  justify-content: center; */
+}
+.item-img{
+  width: 200px;
+  height: 200px;
+  border-radius: 5px;
+ 
+
+}
+
+#step3 .order-item{
+  /* width: 60%; */
+  display: flex;
+  flex-direction: row;
+  /* justify-content: space-evenly; */
+
+  align-items: center;
+    margin-top: 30px;
+  padding-top: 30px;
+  margin-left: 350px;
+}
+#step3 .item-info{
+  margin-left: 250px;
+  margin-top: -100px;
+}
+.payment-info{
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+}
+.shipping-info,.payment-info h5{
+  font-size: 18px;
+  margin-left:340px;
+ 
+}
+.payment-info p{
+  margin-top: 32px;
+  margin-left: 20px;
+}
+.shipping-info{
+  display: flex;
+  flex-direction: row;
+  margin-top: -40px;
+}
+.shipping-info h5{
+  font-size: 18px;
+}
+.shipping-info p{
+  margin-top: 32px;
+  margin-left: 20px;
+}
+/* #step3.checkout-total1{
+   margin-top: 90px; 
+  margin-right: -580px;
+} */
+
+#step3 .checkout-item{
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  /* margin: 30px; */
+  margin-left: 100px;
+  margin-top: 30px;
+  padding-top: 30px;
+}
+#step3 .checkout-item-details{
+  font-size: 18px;
+  font-weight: 500;
+  margin-top: -10px;
+  margin-bottom: 50px;
+}
+#step3 .checkout-totals{
+  float: right;
+  margin-right:350px;
+
+  margin-top: -110px;
+}
+
+#step3 #cancelButton3{
+  background-color: #404041;
+  color: white;
+  margin-top: 20px;
+  margin-left: 50px;
+}
+#step3 #finishButton{
+  background-color: #2ecc71;
+  color: white;
+  float: right;
+  margin-top: 20px;  
+  margin-right: 80px;
+}
+#thanksPage {
+  margin-top: 50px;
+  text-align: center;
+  margin: 100px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  max-width: 600px;
+}
+#thanksPage h2{
+  color: #28a745;
+}
+
+#thanksPage p {
+  margin-bottom: 20px;
+}
+#thanksBtn{
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #28a745; /* Green color */
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease; 
+}
+#thanksBtn:hover{
+  background-color: #218838;
+}

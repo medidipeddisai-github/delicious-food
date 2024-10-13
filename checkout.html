@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout</title>
+    <link rel="stylesheet" href="checkout.css">
+    <link rel="stylesheet" href="home.css">
+</head>
+<body>
+    <header>
+        <div class="logo">DELICIOUS FOOD</div>
+        <nav>
+            <ul>
+                <li><a class="nav-list" href="home.html">Home</a></li>
+                <li><a class="nav-list"  href="contact.html" target="_self">Contact</a></li>
+                <li><a class="nav-list" href="about.html">About </a></li>
+                <li><a class="nav-list" href="#" id="logout">Log out</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container">      
+        
+        <!-- Step 1: Item Details -->
+        <div id="step1" class="step">
+            <h2>Checkout Details</h2>
+            <div class="checkoutDetai">
+             <div id="checkout-container">
+                <!-- Items will be added here dynamically -->
+             </div>
+           </div>
+            <button id="cancelButton1"  onclick="window.history.back();">Cancel</button>
+            <button id="nextButton1">Next</button>
+        </div>
+
+        <!-- Step 2: User Information -->
+        <div id="step2" class="step">
+            <h2>User Information</h2>
+            <form id="userInfoForm">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required><br><br>
+                <label for="address">Address:</label>
+                <textarea id="address" name="address" required></textarea><br><br>
+                <label for="cardDetails">Card Details:</label>
+                <!-- Set a minimum length of 16 digits for the card number -->
+                <input type="text" id="cardDetails" name="cardDetails" pattern="\d{16,}" title="Card number must be at least 16 digits" min="16" required><br><br>
+                <div id="errorContainer"></div>
+
+                <button type="button" id="cancelButton2">Cancel</button>
+                <button type="button" id="nextButton2">Next</button>
+            </form>
+        </div>
+        
+
+        <!-- Step 3: Order Review -->
+        <div id="step3" class="step">
+            <h2>Order Review</h2>
+            <div id="review-container">
+                <!-- Address and order review will be displayed here dynamically -->
+            </div>
+            <button id="cancelButton3">Cancel</button>
+            <button id="finishButton">Finish</button>
+        </div>
+        <!-- Step 4: Thanks Page -->
+<div id="thanksPage" class="step">
+    <h2>Thank You!</h2>
+    <p>Your order has been successfully placed.</p>
+    <button id="thanksBtn" onclick="goToMenu()">Go to Menu</button>
+
+    
+</div>
+
+    </div>
+    <script>
+        function goToMenu() {
+          window.location.href = 'home.html'; // Replace 'index.html' with the path to your menu page
+        }
+        </script>
+        
+    <script src="checkout.js"></script>
+</body>
+</html>

@@ -1,0 +1,131 @@
+
+              /* navbar */
+              header {
+                display: flex;
+                justify-content:space-between;
+                align-items: center;
+                padding: 10px 20px;
+                background-color:#023020;
+                height:60px;
+            }
+            .logo {
+                color:chocolate;
+                font-size: 30px;
+                font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                padding-left: 60px;
+            }
+            nav ul {
+                list-style: none;
+                display: flex;
+                margin: 0;
+                padding-right:40px;
+            }
+
+            nav li {
+                margin-left: 20px;
+            }
+
+            nav a {
+                color: #f9a825;
+                text-decoration: none;
+                font-size: 18px;
+                padding-right: 30px;
+            }
+            .nav-list:hover{
+                color:red;
+            }
+  /* cmplenav */
+  body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: url("https://img.freepik.com/premium-vector/realistic-various-vegetables-wooden-background-vector_532963-106.jpg");
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+
+        .container {
+            width: 80%;
+            margin: auto;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin-top:2px;
+        }
+
+        /* .headers {
+            color: #fff;
+             padding: 20px 0;
+            
+        } */
+        .container h1{
+            text-align: center;
+        }
+
+        .highlight {
+            color: orange;
+            font-size: 30px;
+            
+        } 
+
+        .content {
+            display: flex;
+            padding: 30px;
+            justify-content: space-between;
+            font-size: 30px;
+        }
+
+        .discount {
+            background-color: orange;
+            color: #fff;
+            padding: 10px;
+            border-radius: 50%;
+            text-align: center;
+            width: 100px;
+            height: 100px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.2em;
+            margin-right: 20px;
+        }
+
+        .main-image img {
+            width: 200px;
+            height: 200px;
+            border-radius: 10px;
+        }
+
+        .info {
+            text-align: center;
+            font-size: 40px;
+        }
+
+       .side-image {
+            text-align: center;
+            font-size: 30px;
+        }
+
+        .side-image img {
+            width: 150px;
+            height: auto;
+            border-radius: 10px;
+            display: block;
+            margin: auto;
+        }
+
+        .footer {
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            font-size: 30px;
+        }
+
+        .footer .icon {
+            margin-right: 10px;
+        }
+
+        .footer p {
+            margin: 5px 0;
+        }
+        .paragraph {
+            font-size: 30px;
+        }

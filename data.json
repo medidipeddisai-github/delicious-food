@@ -1,0 +1,70 @@
+[
+    {
+        "id":1,
+        "title":"Chiken Tikka",
+        "image":"https://www.cookwithkushi.com/wp-content/uploads/2016/04/best_easy_simple_chicken_tikka_biryani_recipe.jpg",
+        "price":"300"
+    },
+    {
+        "id":2,
+        "title":"Chicken Biryani",
+        "image":"https://saihomefood.in/cdn/shop/products/n7.jpg?v=1572348312",
+        "description":"its very decisious food to available every where",
+        "price":"280"
+    },
+    {
+        "id":3,
+        "title":"Chicken Tandoori",
+        "image":"https://satyamskitchen.com/wp-content/uploads/2021/01/Tandoori_Chicken_Biriyani_-_Raw_1_30-e1612009020739.jpg",
+        "description":"its very decisious food to available every where",
+        "price":"350"
+    },
+    {
+        "id":4,
+        "title":"Mutton Biryani",
+        "image":"https://www.cubesnjuliennes.com/wp-content/uploads/2021/03/Best-Mutton-Biryani-Recipe.jpg",
+        "description":"its very decisious food to available every where",
+        "price":"400"
+    },
+    {
+        "id":5,
+        "title":"Chettinad Mutton Receipe",
+        "image":"https://static.toiimg.com/thumb/53239841.cms?width=1200&height=900",
+        "description":"its very decisious food to available every where",
+        "price":"500"
+    },
+    {
+        "id":6,
+        "title":"Arabian Mandi",
+        "image":"https://www.shutterstock.com/shutterstock/photos/1631616118/display_1500/stock-photo-chicken-mandi-arabian-dish-from-saudi-arabia-yemen-and-uae-1631616118.jpg",
+        "description":"its very decisious food to available every where",
+        "price":"1000"
+    },
+    {
+        "id":7,
+        "title":"Fullpack Pizza",
+        "image":"https://c.ndtvimg.com/2019-02/tgmaa4qo_junk-food_625x300_12_February_19.jpg?im=Resize=(1230,900)",
+        "description":"its very decisious food to available every where",
+        "price":"430"
+    },
+    {
+        "id":8,
+        "title":"Burger",
+        "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYx7YF1ZMSeV0VKTLcRlm5EgqDM1cv3lS5_w&s",
+        "description":"its very decisious food to available every where",
+        "price":"200"
+    },
+    {   "id":9,
+        "title":"Noodles",
+        "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRj4fbDzlSwNqWoBrAIR5tG2DH7S2u4I9qTg&s",
+        "description":"its very decisious food to available every where",
+        "price":"200"
+    },
+    {
+        "id":10,
+        "title":"French Fries",
+        "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS819CmV7nKfwMWcnvcX2HipRrkavw6U_gheQ&s",
+        "description":"its very decisious food to available every where",
+        "price":"150"
+    }
+]

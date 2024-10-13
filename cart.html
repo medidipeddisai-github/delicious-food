@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart</title>
+    <link rel="stylesheet" type="text/css" href="menu.css">
+
+    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="cart.css">
+</head>
+<body>
+    <header>
+        <div class="logo">DELICIOUS FOOD</div>
+        <nav>
+            <ul>
+                <li><a class="nav-list" href="home.html">Home</a></li>
+                <li><a class="nav-list"  href="contact.html" target="_self">Contact</a></li>
+                <li><a class="nav-list" href="about.html">About </a></li>
+                <li><a class="nav-list" href="#" id="logout">Log out</a></li>
+            </ul>
+        </nav>
+    </header>
+    <button id="back-btn">Back</button>
+    <div id="cart-items"></div>
+    <div id="totalAmount"></div>
+   
+    
+    <script src="common.js"></script>
+ 
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            updateCartCount();
+        });
+    </script>
+
+    <script src="cart.js"></script>
+</body>
+</html> 
+ 
